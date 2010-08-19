@@ -1,0 +1,11 @@
+nagios-check_memcached_connections
+================
+
+This program checks number of connections ("curr_connections" in stats
+command).
+
+example:
+----------------
+
+    check_memcached_connections -H 127.0.0.1 -w 200000 -c 300000
+
