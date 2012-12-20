@@ -12,6 +12,8 @@ const char *revision = "$Revision: 0.1 $";
 \t<%s>\n\n"
 const char *email = "hirose31 _at_ gmail.com";
 
+#include <unistd.h>
+
 #include "common.h"
 #include "utils.h"
 #include "utils_base.h"
